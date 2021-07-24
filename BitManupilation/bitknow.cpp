@@ -6,6 +6,16 @@ int getbit(int num,int pos)
 	// return (num>>(pos-1) & 1);
 	return ((num & (pos-1)<< num) !=0);
 }
+int setbit(int num,int pos)
+{
+	// return (num>>(pos-1) & 1);
+	return ((num & (pos-1)<< num) !=0);
+}
+int clearbit(int num,int pos)
+{
+	// return (num>>(pos-1) & 1);
+	return ((num & (pos-1)<< num) !=0);
+}
 
 
 int main()
